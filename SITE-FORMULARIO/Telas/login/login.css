@@ -1,10 +1,13 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
 
-body{
+* {
     margin: 0;
-    font-family:'Poppins', sans-serif;
-    
-}
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins ;
+  }
+
 
 .mainLogin{
     width: 100vw;
@@ -14,167 +17,123 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    outline:none;
-
- 
-    
 }
 
 
-
-.Login>img{
-    width: 60%;
+.Login{
+    position: absolute;
+    width: 639px;
+    height: 732px;
     align-items: center;
     display:flex;
     justify-content: center;
-    outline: none;
-   
-    
-    
-    
+
+    background: #FFFFFF;
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+}
+.Login img{
+    position: absolute;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    border: #0000 solid;
+    top: 0px;
 }
 
-.Login>h1{
-    width: 100%;
+.Login h1{
+    position: absolute;
     color: #047857;
     display:flex;
     justify-content: center;
-    font-size: 28pt;
-    margin-bottom: 3%;
-    font-weight: 500;
-    padding-bottom: 20%;
-    outline: none;
-    
-    
-}
-
-.Login>h2{
-    width: 100%;
-    display:flex;
-    justify-content: center;
-    font-size: 16pt;
-    margin-bottom: 6%;
-    margin-top: 0%;
+    top: 215px;
+    width: 252px;
+    height: 48px;
+    font-style: normal;
     font-weight: 400;
-    padding-bottom: 10%;
-    outline: none;
-    translate: 0% -50%;
+    font-size: 36px;
+    line-height: 48px;
     
 }
 
-.Login>h3{
-    width: 100%;
+.Login h3{
+    position: absolute;
     display:flex;
     justify-content: center;
+    justify-content: center;
     align-items: center;
-    outline: none;
+    top: 280px;
+    font-weight: medium;
+    width: 164px;
+    height: 30px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
 }
 
-.Login>h4{
-    width: 100%;
+.Login button{
+    position: absolute;
     display:flex;
     justify-content: center;
     align-items: center;
-    translate: 4%;
-    font-size: 10pt;
-    font-weight: 300;
-    outline: none;
-    
-    
-    
-}
-
-.Login>button{
-    width: 50%;
-    flex-direction: column;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    padding: 11px 30px;
-    outline: none;
-    border-radius: 11px;
-    font-weight: 900;
-    letter-spacing: 1px;
-    color: #F2F2F2;
-    background-color: #047857;
+    color: #FFFF;
     cursor: pointer;
-    box-shadow: 0px 10px -12px #34D399;
-    translate: 55% -150%;
-    outline: none;
-
-}
-.cardLogin{
-   
-    width: 100%;
+    width: 136px;
+    height: 57px;
     border: none;
+    top: 550px;
+    left: 40%;
+    background: #047857;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: large;
+    transition: 0.5s;
+}
+
+.Login button:hover{
+    box-shadow: none;
+    background: #10B981;
+}
+
+.cardLogin{
+    position: absolute;
     display:flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 0;
-    margin: 30px 0px;
     box-sizing: border-box;
-    border-radius: 50px;
-    translate: -2%;
-    min-height: 100;
-    max-width: 350px;
-    padding-bottom: 10%;
+    top: 400px;
+}
+
+.Quadrado{
+    padding: 5% 150% 5% 10%;
+    translate: -25% -100%;
+    border-radius: 8px;
+    border: #A6A6A699 solid 1px;
+}
+
+.Quadrado:hover{
+    border: #000 solid 1px;
+}
+
+.Quadrado:focus{
     outline: none;
-
-   
- 
-  
-}
-
-
-.textield{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    outline: none;
-   
-
-}
-
-.imagem{
-    width: 100%;
-    padding: bottom 15%;
-    outline: none;
-   
-}
-
-.input{
-   width: 100%;
-}
-
-.Quadrado1{
-
-   padding: 5% 18%;
-   translate: -7% -95%;
-  
+    border: #0500FF solid 1px;
 }
 
 .user {
  position: absolute;
- translate: -220% -130%;
+ translate: -900% -130%;
  scale: 130%;
+ color: #A6A6A699;
 
 }
 
-.Quadrado2{
-
-    padding: 5% 18%;
-    translate: -7% -95%;
-    
- 
- 
- }
-
  .lock {
     position: absolute;
-    translate: -220% -130%;
+    translate: -900% -130%;
     scale: 130% ;
-    
-   
-    
+    color: #A6A6A699;
    }
