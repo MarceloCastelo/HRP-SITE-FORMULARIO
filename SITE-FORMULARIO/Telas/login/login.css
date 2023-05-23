@@ -120,14 +120,14 @@
 
 .Quadrado:focus{
     outline: none;
-    border: #0500FF solid 1px;
+    border: #10B981 solid 1px;
 }
 
 .user {
  position: absolute;
  translate: -900% -130%;
  scale: 130%;
- color: #A6A6A699;
+ color: #047857;
 
 }
 
@@ -135,5 +135,5 @@
     position: absolute;
     translate: -900% -130%;
     scale: 130% ;
-    color: #A6A6A699;
+    color: #047857;
    }
